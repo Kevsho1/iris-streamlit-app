@@ -1,18 +1,56 @@
 # Iris Species Classification Dashboard
 
-## Project Description
+## Project Overview
 
-This project is a Machine Learning dashboard developed with Streamlit and Python.
+This project is an interactive Machine Learning dashboard built using **Streamlit** and **Python**.  
+It applies a **Random Forest Classifier** to the classic Iris dataset to predict flower species based on morphological measurements.
 
-The application classifies Iris flower species using a Random Forest Classifier model trained with the Iris dataset from Scikit-learn.
+The application demonstrates a complete **end-to-end data science pipeline**, including:
 
-The dashboard allows users to:
+- Data understanding
+- Model training
+- Evaluation
+- Interactive visualization
+- Real-time prediction
 
-- Predict Iris flower species
-- Visualize data distributions
-- Explore scatter plots
-- Interact with a 3D visualization
-- Analyze model performance metrics
+---
+
+## Objectives
+
+- Build a supervised classification model
+- Apply a full machine learning workflow
+- Evaluate model performance using standard metrics
+- Develop an interactive dashboard for visualization and prediction
+
+---
+
+## Machine Learning Model
+
+The model used is:
+
+- Random Forest Classifier (Scikit-learn)
+
+### Evaluation Metrics:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+---
+
+## Features
+
+The dashboard includes:
+
+- Interactive sliders for user input
+- Real-time species prediction
+- Model performance metrics
+- Data distribution visualizations (histograms)
+- Scatter plots for feature relationships
+- Interactive 3D visualization with user input point
+- Dataset preview table
+- Workflow explanation of the ML pipeline
 
 ---
 
@@ -29,55 +67,23 @@ The dashboard allows users to:
 
 ---
 
-## Machine Learning Model
+## Dataset
 
-The project uses:
+The project uses the **Iris dataset** from Scikit-learn, which contains:
 
-- Random Forest Classifier
-
-Evaluation metrics:
-
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-
----
-
-## Features
-
-- Interactive sliders
-- Real-time predictions
-- Histogram visualization
-- Scatter plot visualization
-- Interactive 3D graph
-- Dataset preview
-- Model performance metrics
+- 150 samples
+- 3 species: Setosa, Versicolor, Virginica
+- 4 numerical features:
+  - Sepal length
+  - Sepal width
+  - Petal length
+  - Petal width
 
 ---
 
-## How to Run
+## ▶How to Run the Project
 
-Install dependencies:
+### 1. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-streamlit run Proyect.py
-```
-
----
-
-## Dataset
-
-The project uses the Iris dataset included in Scikit-learn.
-
----
-
-## Author
-
-Kevin Urueta
